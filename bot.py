@@ -2,8 +2,6 @@ import logging
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, ChatMemberHandler
 from database import Database
-from dotenv import load_dotenv
-load_dotenv()
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
